@@ -12,7 +12,11 @@
     </template>
 
     <template #interactions v-if="!deleted">
-      <vs-button danger icon @click="() => handleUpdateItem({ liked: !liked })">
+      <vs-button
+        danger
+        icon
+        @click.stop="() => handleUpdateItem({ liked: !liked })"
+      >
         <i :class="['bx bx-tada-hover', liked ? 'bxs-like' : 'bx-like']"></i>
       </vs-button>
       <vs-button
