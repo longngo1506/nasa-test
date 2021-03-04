@@ -63,7 +63,14 @@ export default {
         title: this._title,
         description: this._desc,
       });
+
+      this.resetData();
     },
+
+    resetData() {
+      this._title = "",
+      this._ = ""
+    }
   },
 };
 </script>
