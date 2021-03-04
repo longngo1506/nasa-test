@@ -61,7 +61,7 @@ export default {
       this.$emit("confirm-update", {
         ...this.itemUpdate,
         title: this._title,
-        desc: this._desc,
+        description: this._desc,
       });
     },
   },
