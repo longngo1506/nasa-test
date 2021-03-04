@@ -5,12 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    
     "vue": "^2.6.11",
     "vuesax": "^4.0.1-alpha.25",
     "vuex": "^3.4.0"
@@ -23,8 +23,10 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "express": "^4.17.1",
     "node-sass": "4.14.1",
     "sass-loader": "^8.0.0",
+    "serve-static": "^1.14.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -45,5 +47,20 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "```\r yarn install\r ```",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longngo1506/nasa-test.git"
+  },
+  "keywords": [
+    "nasta-test-vue"
+  ],
+  "author": "long.ngo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longngo1506/nasa-test/issues"
+  },
+  "homepage": "https://github.com/longngo1506/nasa-test#readme"
 }
